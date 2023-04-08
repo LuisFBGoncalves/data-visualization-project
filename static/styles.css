@@ -1,0 +1,122 @@
+/* Set the color of all text to white */
+.mainpage {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    height: 1225px;
+}
+
+.mainpage_container{
+    margin: 2px;
+    padding: 2px;
+}
+
+/* Set the color of specific elements to white */
+h1 {
+    color: white;
+    font-family: 'Verdana', sans-serif, light;
+}
+
+h2, h3, h4, h5, h6, p {
+    color: black;
+    font-family: 'Verdana', sans-serif, light;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+body {
+    background-color: #F4F5FA;
+    margin: 0px;
+    padding: 0px;
+}
+
+.modebar{
+  display: none !important;
+}
+
+
+
+/* input box 
+.Select-control {
+    background-color: black;
+}*/
+
+
+/* changes the text color of input box */
+.Select-value-label {
+    color: black;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    border: 1px solid grey;
+    border-radius: 4px;
+    /*color: black;*/
+}
+
+/* dropdown menu options */
+.VirtualizedSelectOption {
+    color: black;
+ }
+
+
+.plot_container {
+    border-radius: 25px;
+    background: #FDFDFD;
+    box-shadow: 0px 0px 1px grey;
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px;
+}
+
+.side_bar {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: 'Verdana', sans-serif, light;
+  background-color: #37425B;
+  padding-left: 1%;
+  padding-right: 1%;
+  color:rgb(7, 7, 7);
+}
+
+.box_comment {
+  border-radius: 20px;
+  background-color: #b6c2db;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 1px grey;
+  font-size: small;
+  text-align: center;
+  font-family: system-ui;
+}
+
+.footerr {
+  font-family: 'Verdana', sans-serif, light;
+    color: white;
+    background: #37425B;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-right: 10px;
+    margin-top: 40px;
+    box-shadow: 2px;
+}
+
+/* Scrollbars */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: #E3E3E3;
+}
+*::-webkit-scrollbar-thumb {
+  background-color:#37425B;
+  border-radius: 20px;
+  border: 3px solid #E3E3E3;
+}
+
+.Select-menu-outer {
+  display : block !important;
+}
